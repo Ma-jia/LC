@@ -10,6 +10,7 @@ F:/LC_stack/cmake-build-debug/CMakeFiles/1143.cpp.dir
 F:/LC_stack/cmake-build-debug/CMakeFiles/114tree.cpp.dir
 F:/LC_stack/cmake-build-debug/CMakeFiles/118.cpp.dir
 F:/LC_stack/cmake-build-debug/CMakeFiles/121.cpp.dir
+F:/LC_stack/cmake-build-debug/CMakeFiles/122and123.cpp.dir
 F:/LC_stack/cmake-build-debug/CMakeFiles/128.cpp.dir
 F:/LC_stack/cmake-build-debug/CMakeFiles/131.cpp.dir
 F:/LC_stack/cmake-build-debug/CMakeFiles/1382tree.cpp.dir
