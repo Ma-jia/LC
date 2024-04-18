@@ -800,6 +800,39 @@ build 17.cpp.exe: CXX_EXECUTABLE_LINKER__17.2ecpp_Debug CMakeFiles/17.cpp.dir/17
   TARGET_PDB = 17.cpp.exe.dbg
 
 # =============================================================================
+# Object build statements for EXECUTABLE target 188.cpp
+
+
+#############################################
+# Order-only phony target for 188.cpp
+
+build cmake_object_order_depends_target_188.cpp: phony || CMakeFiles/188.cpp.dir
+
+build CMakeFiles/188.cpp.dir/188.cpp.obj: CXX_COMPILER__188.2ecpp_unscanned_Debug F$:/LC_stack/188.cpp || cmake_object_order_depends_target_188.cpp
+  DEP_FILE = CMakeFiles\188.cpp.dir\188.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\188.cpp.dir
+  OBJECT_FILE_DIR = CMakeFiles\188.cpp.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 188.cpp
+
+
+#############################################
+# Link the executable 188.cpp.exe
+
+build 188.cpp.exe: CXX_EXECUTABLE_LINKER__188.2ecpp_Debug CMakeFiles/188.cpp.dir/188.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\188.cpp.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = 188.cpp.exe
+  TARGET_IMPLIB = lib188.cpp.dll.a
+  TARGET_PDB = 188.cpp.exe.dbg
+
+# =============================================================================
 # Object build statements for EXECUTABLE target 198.cpp
 
 
@@ -2785,6 +2818,8 @@ build 155.cpp: phony 155.cpp.exe
 
 build 17.cpp: phony 17.cpp.exe
 
+build 188.cpp: phony 188.cpp.exe
+
 build 198.cpp: phony 198.cpp.exe
 
 build 199tree.cpp: phony 199tree.cpp.exe
@@ -2909,7 +2944,7 @@ build main.cpp: phony main.cpp.exe
 #############################################
 # Folder: F:/LC_stack/cmake-build-debug
 
-build all: phony 1.cpp.exe 101tree.cpp.exe 102tree.cpp.exe 1049.cpp.exe 104tree.cpp.exe 105tree.cpp.exe 108tree.cpp.exe 11.cpp.exe 1143.cpp.exe 114tree.cpp.exe 118.cpp.exe 121.cpp.exe 122and123.cpp.exe 128.cpp.exe 131.cpp.exe 1382tree.cpp.exe 139.cpp.exe 15.cpp.exe 150.cpp.exe 152.cpp.exe 153.cpp.exe 155.cpp.exe 17.cpp.exe 198.cpp.exe 199tree.cpp.exe 20.cpp.exe 22.cpp.exe 226tree.cpp.exe 227.cpp.exe 230tree.cpp.exe 232.cpp.exe 236tree.cpp.exe 279.cpp.exe 283.cpp.exe 3.cpp.exe 300.cpp.exe 316.cpp.exe 32.cpp.exe 322.cpp.exe 33.cpp.exe 34.cpp.exe 343.cpp.exe 35.cpp.exe 386.cpp.exe 39.cpp.exe 394.cpp.exe 416.cpp.exe 437tree.cpp.exe 45.cpp.exe 456.cpp.exe 46.cpp.exe 494.cpp.exe 496.cpp.exe 5.cpp.exe 503.cpp.exe 53.cpp.exe 543tree.cpp.exe 55.cpp.exe 560.cpp.exe 581.cpp.exe 62.cpp.exe 64.cpp.exe 678.cpp.exe 70.cpp.exe 72.cpp.exe 735.cpp.exe 739.cpp.exe 74.cpp.exe 746.cpp.exe 763.cpp.exe 769.cpp.exe 78.cpp.exe 79.cpp.exe 844.cpp.exe 91.cpp.exe 94tree.cpp.exe 95.cpp.exe 96.cpp.exe 98tree.cpp.exe 99tree.cpp.exe main.cpp.exe
+build all: phony 1.cpp.exe 101tree.cpp.exe 102tree.cpp.exe 1049.cpp.exe 104tree.cpp.exe 105tree.cpp.exe 108tree.cpp.exe 11.cpp.exe 1143.cpp.exe 114tree.cpp.exe 118.cpp.exe 121.cpp.exe 122and123.cpp.exe 128.cpp.exe 131.cpp.exe 1382tree.cpp.exe 139.cpp.exe 15.cpp.exe 150.cpp.exe 152.cpp.exe 153.cpp.exe 155.cpp.exe 17.cpp.exe 188.cpp.exe 198.cpp.exe 199tree.cpp.exe 20.cpp.exe 22.cpp.exe 226tree.cpp.exe 227.cpp.exe 230tree.cpp.exe 232.cpp.exe 236tree.cpp.exe 279.cpp.exe 283.cpp.exe 3.cpp.exe 300.cpp.exe 316.cpp.exe 32.cpp.exe 322.cpp.exe 33.cpp.exe 34.cpp.exe 343.cpp.exe 35.cpp.exe 386.cpp.exe 39.cpp.exe 394.cpp.exe 416.cpp.exe 437tree.cpp.exe 45.cpp.exe 456.cpp.exe 46.cpp.exe 494.cpp.exe 496.cpp.exe 5.cpp.exe 503.cpp.exe 53.cpp.exe 543tree.cpp.exe 55.cpp.exe 560.cpp.exe 581.cpp.exe 62.cpp.exe 64.cpp.exe 678.cpp.exe 70.cpp.exe 72.cpp.exe 735.cpp.exe 739.cpp.exe 74.cpp.exe 746.cpp.exe 763.cpp.exe 769.cpp.exe 78.cpp.exe 79.cpp.exe 844.cpp.exe 91.cpp.exe 94tree.cpp.exe 95.cpp.exe 96.cpp.exe 98tree.cpp.exe 99tree.cpp.exe main.cpp.exe
 
 # =============================================================================
 # Built-in targets
