@@ -19,6 +19,7 @@ public:
         if ((target + sum) % 2 == 1)return 0;
         int bagSize = (target + sum) / 2;
         vector<int> dp(bagSize + 1);
+        dp[0] = 1;
         for (int i = 0; i < nums.size(); ++i) {
             for (int j = i; j > nums[i]; --j) {
                 dp[j] += dp[j - nums[i]];
