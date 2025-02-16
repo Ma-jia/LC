@@ -3275,6 +3275,39 @@ build 70.cpp.exe: CXX_EXECUTABLE_LINKER__70.2ecpp_Debug CMakeFiles/70.cpp.dir/70
   TARGET_PDB = 70.cpp.exe.dbg
 
 # =============================================================================
+# Object build statements for EXECUTABLE target 714.cpp
+
+
+#############################################
+# Order-only phony target for 714.cpp
+
+build cmake_object_order_depends_target_714.cpp: phony || CMakeFiles/714.cpp.dir
+
+build CMakeFiles/714.cpp.dir/714.cpp.obj: CXX_COMPILER__714.2ecpp_unscanned_Debug F$:/LC_stack/714.cpp || cmake_object_order_depends_target_714.cpp
+  DEP_FILE = CMakeFiles\714.cpp.dir\714.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\714.cpp.dir
+  OBJECT_FILE_DIR = CMakeFiles\714.cpp.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 714.cpp
+
+
+#############################################
+# Link the executable 714.cpp.exe
+
+build 714.cpp.exe: CXX_EXECUTABLE_LINKER__714.2ecpp_Debug CMakeFiles/714.cpp.dir/714.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\714.cpp.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = 714.cpp.exe
+  TARGET_IMPLIB = lib714.cpp.dll.a
+  TARGET_PDB = 714.cpp.exe.dbg
+
+# =============================================================================
 # Object build statements for EXECUTABLE target 72.cpp
 
 
@@ -4255,6 +4288,8 @@ build 678.cpp: phony 678.cpp.exe
 
 build 70.cpp: phony 70.cpp.exe
 
+build 714.cpp: phony 714.cpp.exe
+
 build 72.cpp: phony 72.cpp.exe
 
 build 725.cpp: phony 725.cpp.exe
@@ -4309,7 +4344,7 @@ build main.cpp: phony main.cpp.exe
 #############################################
 # Folder: F:/LC_stack/cmake-build-debug
 
-build all: phony 02.cpp.exe 1.cpp.exe 1019.cpp.exe 101tree.cpp.exe 102tree.cpp.exe 1049.cpp.exe 104tree.cpp.exe 105tree.cpp.exe 107.cpp.exe 108tree.cpp.exe 11.cpp.exe 111.cpp.exe 1143.cpp.exe 114tree.cpp.exe 116.cpp.exe 117.cpp.exe 118.cpp.exe 121.cpp.exe 122and123.cpp.exe 128.cpp.exe 131.cpp.exe 138.cpp.exe 1382tree.cpp.exe 139.cpp.exe 141.cpp.exe 142.cpp.exe 143.cpp.exe 144.cpp.exe 145.cpp.exe 147.cpp.exe 148.cpp.exe 15.cpp.exe 150.cpp.exe 152.cpp.exe 153.cpp.exe 155.cpp.exe 160.cpp.exe 17.cpp.exe 1721.cpp.exe 188.cpp.exe 19.cpp.exe 198.cpp.exe 199tree.cpp.exe 20.cpp.exe 203.cpp.exe 206.cpp.exe 213.cpp.exe 22.cpp.exe 226tree.cpp.exe 227.cpp.exe 230tree.cpp.exe 232.cpp.exe 234.cpp.exe 236tree.cpp.exe 24.cpp.exe 279.cpp.exe 283.cpp.exe 3.cpp.exe 300.cpp.exe 309.cpp.exe 316.cpp.exe 32.cpp.exe 322.cpp.exe 328.cpp.exe 33.cpp.exe 337.cpp.exe 34.cpp.exe 343.cpp.exe 35.cpp.exe 386.cpp.exe 39.cpp.exe 394.cpp.exe 406.cpp.exe 416.cpp.exe 429.cpp.exe 437tree.cpp.exe 45.cpp.exe 456.cpp.exe 46.cpp.exe 474.cpp.exe 494.cpp.exe 496.cpp.exe 5.cpp.exe 503.cpp.exe 515.cpp.exe 518.cpp.exe 53.cpp.exe 543tree.cpp.exe 55.cpp.exe 560.cpp.exe 572.cpp.exe 581.cpp.exe 61.cpp.exe 62.cpp.exe 637.cpp.exe 64.cpp.exe 678.cpp.exe 70.cpp.exe 72.cpp.exe 725.cpp.exe 735.cpp.exe 739.cpp.exe 74.cpp.exe 746.cpp.exe 763.cpp.exe 769.cpp.exe 78.cpp.exe 79.cpp.exe 817.cpp.exe 82.cpp.exe 844.cpp.exe 86.cpp.exe 876.cpp.exe 91.cpp.exe 92.cpp.exe 94tree.cpp.exe 95.cpp.exe 96.cpp.exe 98tree.cpp.exe 99tree.cpp.exe main.cpp.exe
+build all: phony 02.cpp.exe 1.cpp.exe 1019.cpp.exe 101tree.cpp.exe 102tree.cpp.exe 1049.cpp.exe 104tree.cpp.exe 105tree.cpp.exe 107.cpp.exe 108tree.cpp.exe 11.cpp.exe 111.cpp.exe 1143.cpp.exe 114tree.cpp.exe 116.cpp.exe 117.cpp.exe 118.cpp.exe 121.cpp.exe 122and123.cpp.exe 128.cpp.exe 131.cpp.exe 138.cpp.exe 1382tree.cpp.exe 139.cpp.exe 141.cpp.exe 142.cpp.exe 143.cpp.exe 144.cpp.exe 145.cpp.exe 147.cpp.exe 148.cpp.exe 15.cpp.exe 150.cpp.exe 152.cpp.exe 153.cpp.exe 155.cpp.exe 160.cpp.exe 17.cpp.exe 1721.cpp.exe 188.cpp.exe 19.cpp.exe 198.cpp.exe 199tree.cpp.exe 20.cpp.exe 203.cpp.exe 206.cpp.exe 213.cpp.exe 22.cpp.exe 226tree.cpp.exe 227.cpp.exe 230tree.cpp.exe 232.cpp.exe 234.cpp.exe 236tree.cpp.exe 24.cpp.exe 279.cpp.exe 283.cpp.exe 3.cpp.exe 300.cpp.exe 309.cpp.exe 316.cpp.exe 32.cpp.exe 322.cpp.exe 328.cpp.exe 33.cpp.exe 337.cpp.exe 34.cpp.exe 343.cpp.exe 35.cpp.exe 386.cpp.exe 39.cpp.exe 394.cpp.exe 406.cpp.exe 416.cpp.exe 429.cpp.exe 437tree.cpp.exe 45.cpp.exe 456.cpp.exe 46.cpp.exe 474.cpp.exe 494.cpp.exe 496.cpp.exe 5.cpp.exe 503.cpp.exe 515.cpp.exe 518.cpp.exe 53.cpp.exe 543tree.cpp.exe 55.cpp.exe 560.cpp.exe 572.cpp.exe 581.cpp.exe 61.cpp.exe 62.cpp.exe 637.cpp.exe 64.cpp.exe 678.cpp.exe 70.cpp.exe 714.cpp.exe 72.cpp.exe 725.cpp.exe 735.cpp.exe 739.cpp.exe 74.cpp.exe 746.cpp.exe 763.cpp.exe 769.cpp.exe 78.cpp.exe 79.cpp.exe 817.cpp.exe 82.cpp.exe 844.cpp.exe 86.cpp.exe 876.cpp.exe 91.cpp.exe 92.cpp.exe 94tree.cpp.exe 95.cpp.exe 96.cpp.exe 98tree.cpp.exe 99tree.cpp.exe main.cpp.exe
 
 # =============================================================================
 # Built-in targets
