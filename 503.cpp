@@ -33,45 +33,45 @@ using namespace std;
 
 using namespace std;
 
-class Solution {
-public:
-    vector<int> nextGreaterElements(vector<int> &nums) {
-        int n = nums.size();
-        vector<int> ans(n, 0);
-        stack<int> stk;
-        for (int i = 2 * n - 1; i >= 0; --i) {
-            while (!stk.empty() && nums[i % n] >= stk.top()) {
-                stk.pop();
-            }
-            if (i < n)ans[i] = stk.empty() ? -1 : stk.top();
-            stk.push(nums[i % n]);
-        }
-
-        return ans;
-    }
-};
-
 //class Solution {
 //public:
-//    vector<int> nextGreaterElements(vector<int>& nums) {
-//        std::vector<int> copiedVector = nums;
-//        int n=nums.size();
-//        // 将copiedVector连接到originalVector
-//        nums.insert(nums.end(), copiedVector.begin(), copiedVector.end());
-//
+//    vector<int> nextGreaterElements(vector<int> &nums) {
+//        int n = nums.size();
 //        vector<int> ans(n, 0);
 //        stack<int> stk;
-//        for (int i = 2*n-1; i >= 0; --i) {
-//            while (!stk.empty() && nums[i]>= stk.top()) {
+//        for (int i = 2 * n - 1; i >= 0; --i) {
+//            while (!stk.empty() && nums[i % n] >= stk.top()) {
 //                stk.pop();
 //            }
-//            if(i<n)ans[i] = stk.empty() ? -1 : stk.top();
-//            stk.push(nums[i]);
+//            if (i < n)ans[i] = stk.empty() ? -1 : stk.top();
+//            stk.push(nums[i % n]);
 //        }
 //
 //        return ans;
 //    }
 //};
+
+class Solution {
+public:
+    vector<int> nextGreaterElements(vector<int> &nums) {
+        std::vector<int> copiedVector = nums;
+        int n = nums.size();
+        // 将copiedVector连接到originalVector
+        nums.insert(nums.end(), copiedVector.begin(), copiedVector.end());
+
+        vector<int> ans(n, 0);
+        stack<int> stk;
+        for (int i = 2 * n - 1; i >= 0; --i) {
+            while (!stk.empty() && nums[i] >= stk.top()) {
+                stk.pop();
+            }
+            if (i < n)ans[i] = stk.empty() ? -1 : stk.top();
+            stk.push(nums[i]);
+        }
+
+        return ans;
+    }
+};
 int main() {
     Solution sol;
 

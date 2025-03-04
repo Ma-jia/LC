@@ -3,7 +3,8 @@
 #include<vector>
 #include<algorithm>
 #include <bits/stdc++.h>
-
+#include <cstdio>
+#include <cstdio>
 using namespace std;
 #include <stdio.h>
 #include <stdbool.h>
@@ -23,3 +24,10 @@ public:
         return dp[nums.size() - 1];
     }
 };
+
+int main() {
+    int a = 5;
+    printf("%5d", a);
+    printf("\n");
+    printf("!");
+}

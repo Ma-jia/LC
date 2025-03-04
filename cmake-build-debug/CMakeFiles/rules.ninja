@@ -52,6 +52,25 @@ rule CXX_EXECUTABLE_LINKER__1.2ecpp_Debug
 #############################################
 # Rule for compiling CXX files.
 
+rule CXX_COMPILER__1005.2ecpp_unscanned_Debug
+  depfile = $DEP_FILE
+  deps = gcc
+  command = "E:\Clion\CLion 2023.1.1\bin\mingw\bin\g++.exe" $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
+  description = Building CXX object $out
+
+
+#############################################
+# Rule for linking CXX executable.
+
+rule CXX_EXECUTABLE_LINKER__1005.2ecpp_Debug
+  command = cmd.exe /C "$PRE_LINK && "E:\Clion\CLion 2023.1.1\bin\mingw\bin\g++.exe" $FLAGS $LINK_FLAGS $in -o $TARGET_FILE -Wl,--out-implib,$TARGET_IMPLIB -Wl,--major-image-version,0,--minor-image-version,0 $LINK_PATH $LINK_LIBRARIES && $POST_BUILD"
+  description = Linking CXX executable $TARGET_FILE
+  restat = $RESTAT
+
+
+#############################################
+# Rule for compiling CXX files.
+
 rule CXX_COMPILER__1019.2ecpp_unscanned_Debug
   depfile = $DEP_FILE
   deps = gcc
@@ -443,6 +462,25 @@ rule CXX_COMPILER__131.2ecpp_unscanned_Debug
 # Rule for linking CXX executable.
 
 rule CXX_EXECUTABLE_LINKER__131.2ecpp_Debug
+  command = cmd.exe /C "$PRE_LINK && "E:\Clion\CLion 2023.1.1\bin\mingw\bin\g++.exe" $FLAGS $LINK_FLAGS $in -o $TARGET_FILE -Wl,--out-implib,$TARGET_IMPLIB -Wl,--major-image-version,0,--minor-image-version,0 $LINK_PATH $LINK_LIBRARIES && $POST_BUILD"
+  description = Linking CXX executable $TARGET_FILE
+  restat = $RESTAT
+
+
+#############################################
+# Rule for compiling CXX files.
+
+rule CXX_COMPILER__134.2ecpp_unscanned_Debug
+  depfile = $DEP_FILE
+  deps = gcc
+  command = "E:\Clion\CLion 2023.1.1\bin\mingw\bin\g++.exe" $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
+  description = Building CXX object $out
+
+
+#############################################
+# Rule for linking CXX executable.
+
+rule CXX_EXECUTABLE_LINKER__134.2ecpp_Debug
   command = cmd.exe /C "$PRE_LINK && "E:\Clion\CLion 2023.1.1\bin\mingw\bin\g++.exe" $FLAGS $LINK_FLAGS $in -o $TARGET_FILE -Wl,--out-implib,$TARGET_IMPLIB -Wl,--major-image-version,0,--minor-image-version,0 $LINK_PATH $LINK_LIBRARIES && $POST_BUILD"
   description = Linking CXX executable $TARGET_FILE
   restat = $RESTAT
@@ -945,6 +983,25 @@ rule CXX_EXECUTABLE_LINKER__213.2ecpp_Debug
 #############################################
 # Rule for compiling CXX files.
 
+rule CXX_COMPILER__216.2ecpp_unscanned_Debug
+  depfile = $DEP_FILE
+  deps = gcc
+  command = "E:\Clion\CLion 2023.1.1\bin\mingw\bin\g++.exe" $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
+  description = Building CXX object $out
+
+
+#############################################
+# Rule for linking CXX executable.
+
+rule CXX_EXECUTABLE_LINKER__216.2ecpp_Debug
+  command = cmd.exe /C "$PRE_LINK && "E:\Clion\CLion 2023.1.1\bin\mingw\bin\g++.exe" $FLAGS $LINK_FLAGS $in -o $TARGET_FILE -Wl,--out-implib,$TARGET_IMPLIB -Wl,--major-image-version,0,--minor-image-version,0 $LINK_PATH $LINK_LIBRARIES && $POST_BUILD"
+  description = Linking CXX executable $TARGET_FILE
+  restat = $RESTAT
+
+
+#############################################
+# Rule for compiling CXX files.
+
 rule CXX_COMPILER__22.2ecpp_unscanned_Debug
   depfile = $DEP_FILE
   deps = gcc
@@ -1363,6 +1420,25 @@ rule CXX_EXECUTABLE_LINKER__35.2ecpp_Debug
 #############################################
 # Rule for compiling CXX files.
 
+rule CXX_COMPILER__376.2ecpp_unscanned_Debug
+  depfile = $DEP_FILE
+  deps = gcc
+  command = "E:\Clion\CLion 2023.1.1\bin\mingw\bin\g++.exe" $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
+  description = Building CXX object $out
+
+
+#############################################
+# Rule for linking CXX executable.
+
+rule CXX_EXECUTABLE_LINKER__376.2ecpp_Debug
+  command = cmd.exe /C "$PRE_LINK && "E:\Clion\CLion 2023.1.1\bin\mingw\bin\g++.exe" $FLAGS $LINK_FLAGS $in -o $TARGET_FILE -Wl,--out-implib,$TARGET_IMPLIB -Wl,--major-image-version,0,--minor-image-version,0 $LINK_PATH $LINK_LIBRARIES && $POST_BUILD"
+  description = Linking CXX executable $TARGET_FILE
+  restat = $RESTAT
+
+
+#############################################
+# Rule for compiling CXX files.
+
 rule CXX_COMPILER__386.2ecpp_unscanned_Debug
   depfile = $DEP_FILE
   deps = gcc
@@ -1431,6 +1507,25 @@ rule CXX_COMPILER__394.2ecpp_unscanned_Debug
 # Rule for linking CXX executable.
 
 rule CXX_EXECUTABLE_LINKER__394.2ecpp_Debug
+  command = cmd.exe /C "$PRE_LINK && "E:\Clion\CLion 2023.1.1\bin\mingw\bin\g++.exe" $FLAGS $LINK_FLAGS $in -o $TARGET_FILE -Wl,--out-implib,$TARGET_IMPLIB -Wl,--major-image-version,0,--minor-image-version,0 $LINK_PATH $LINK_LIBRARIES && $POST_BUILD"
+  description = Linking CXX executable $TARGET_FILE
+  restat = $RESTAT
+
+
+#############################################
+# Rule for compiling CXX files.
+
+rule CXX_COMPILER__40.2ecpp_unscanned_Debug
+  depfile = $DEP_FILE
+  deps = gcc
+  command = "E:\Clion\CLion 2023.1.1\bin\mingw\bin\g++.exe" $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
+  description = Building CXX object $out
+
+
+#############################################
+# Rule for linking CXX executable.
+
+rule CXX_EXECUTABLE_LINKER__40.2ecpp_Debug
   command = cmd.exe /C "$PRE_LINK && "E:\Clion\CLion 2023.1.1\bin\mingw\bin\g++.exe" $FLAGS $LINK_FLAGS $in -o $TARGET_FILE -Wl,--out-implib,$TARGET_IMPLIB -Wl,--major-image-version,0,--minor-image-version,0 $LINK_PATH $LINK_LIBRARIES && $POST_BUILD"
   description = Linking CXX executable $TARGET_FILE
   restat = $RESTAT
@@ -1534,6 +1629,25 @@ rule CXX_EXECUTABLE_LINKER__45.2ecpp_Debug
 #############################################
 # Rule for compiling CXX files.
 
+rule CXX_COMPILER__455.2ecpp_unscanned_Debug
+  depfile = $DEP_FILE
+  deps = gcc
+  command = "E:\Clion\CLion 2023.1.1\bin\mingw\bin\g++.exe" $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
+  description = Building CXX object $out
+
+
+#############################################
+# Rule for linking CXX executable.
+
+rule CXX_EXECUTABLE_LINKER__455.2ecpp_Debug
+  command = cmd.exe /C "$PRE_LINK && "E:\Clion\CLion 2023.1.1\bin\mingw\bin\g++.exe" $FLAGS $LINK_FLAGS $in -o $TARGET_FILE -Wl,--out-implib,$TARGET_IMPLIB -Wl,--major-image-version,0,--minor-image-version,0 $LINK_PATH $LINK_LIBRARIES && $POST_BUILD"
+  description = Linking CXX executable $TARGET_FILE
+  restat = $RESTAT
+
+
+#############################################
+# Rule for compiling CXX files.
+
 rule CXX_COMPILER__456.2ecpp_unscanned_Debug
   depfile = $DEP_FILE
   deps = gcc
@@ -1572,6 +1686,25 @@ rule CXX_EXECUTABLE_LINKER__46.2ecpp_Debug
 #############################################
 # Rule for compiling CXX files.
 
+rule CXX_COMPILER__47.2ecpp_unscanned_Debug
+  depfile = $DEP_FILE
+  deps = gcc
+  command = "E:\Clion\CLion 2023.1.1\bin\mingw\bin\g++.exe" $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
+  description = Building CXX object $out
+
+
+#############################################
+# Rule for linking CXX executable.
+
+rule CXX_EXECUTABLE_LINKER__47.2ecpp_Debug
+  command = cmd.exe /C "$PRE_LINK && "E:\Clion\CLion 2023.1.1\bin\mingw\bin\g++.exe" $FLAGS $LINK_FLAGS $in -o $TARGET_FILE -Wl,--out-implib,$TARGET_IMPLIB -Wl,--major-image-version,0,--minor-image-version,0 $LINK_PATH $LINK_LIBRARIES && $POST_BUILD"
+  description = Linking CXX executable $TARGET_FILE
+  restat = $RESTAT
+
+
+#############################################
+# Rule for compiling CXX files.
+
 rule CXX_COMPILER__474.2ecpp_unscanned_Debug
   depfile = $DEP_FILE
   deps = gcc
@@ -1583,6 +1716,25 @@ rule CXX_COMPILER__474.2ecpp_unscanned_Debug
 # Rule for linking CXX executable.
 
 rule CXX_EXECUTABLE_LINKER__474.2ecpp_Debug
+  command = cmd.exe /C "$PRE_LINK && "E:\Clion\CLion 2023.1.1\bin\mingw\bin\g++.exe" $FLAGS $LINK_FLAGS $in -o $TARGET_FILE -Wl,--out-implib,$TARGET_IMPLIB -Wl,--major-image-version,0,--minor-image-version,0 $LINK_PATH $LINK_LIBRARIES && $POST_BUILD"
+  description = Linking CXX executable $TARGET_FILE
+  restat = $RESTAT
+
+
+#############################################
+# Rule for compiling CXX files.
+
+rule CXX_COMPILER__491.2ecpp_unscanned_Debug
+  depfile = $DEP_FILE
+  deps = gcc
+  command = "E:\Clion\CLion 2023.1.1\bin\mingw\bin\g++.exe" $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
+  description = Building CXX object $out
+
+
+#############################################
+# Rule for linking CXX executable.
+
+rule CXX_EXECUTABLE_LINKER__491.2ecpp_Debug
   command = cmd.exe /C "$PRE_LINK && "E:\Clion\CLion 2023.1.1\bin\mingw\bin\g++.exe" $FLAGS $LINK_FLAGS $in -o $TARGET_FILE -Wl,--out-implib,$TARGET_IMPLIB -Wl,--major-image-version,0,--minor-image-version,0 $LINK_PATH $LINK_LIBRARIES && $POST_BUILD"
   description = Linking CXX executable $TARGET_FILE
   restat = $RESTAT
@@ -1659,6 +1811,25 @@ rule CXX_COMPILER__503.2ecpp_unscanned_Debug
 # Rule for linking CXX executable.
 
 rule CXX_EXECUTABLE_LINKER__503.2ecpp_Debug
+  command = cmd.exe /C "$PRE_LINK && "E:\Clion\CLion 2023.1.1\bin\mingw\bin\g++.exe" $FLAGS $LINK_FLAGS $in -o $TARGET_FILE -Wl,--out-implib,$TARGET_IMPLIB -Wl,--major-image-version,0,--minor-image-version,0 $LINK_PATH $LINK_LIBRARIES && $POST_BUILD"
+  description = Linking CXX executable $TARGET_FILE
+  restat = $RESTAT
+
+
+#############################################
+# Rule for compiling CXX files.
+
+rule CXX_COMPILER__51.2ecpp_unscanned_Debug
+  depfile = $DEP_FILE
+  deps = gcc
+  command = "E:\Clion\CLion 2023.1.1\bin\mingw\bin\g++.exe" $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
+  description = Building CXX object $out
+
+
+#############################################
+# Rule for linking CXX executable.
+
+rule CXX_EXECUTABLE_LINKER__51.2ecpp_Debug
   command = cmd.exe /C "$PRE_LINK && "E:\Clion\CLion 2023.1.1\bin\mingw\bin\g++.exe" $FLAGS $LINK_FLAGS $in -o $TARGET_FILE -Wl,--out-implib,$TARGET_IMPLIB -Wl,--major-image-version,0,--minor-image-version,0 $LINK_PATH $LINK_LIBRARIES && $POST_BUILD"
   description = Linking CXX executable $TARGET_FILE
   restat = $RESTAT
@@ -2199,6 +2370,25 @@ rule CXX_EXECUTABLE_LINKER__769.2ecpp_Debug
 #############################################
 # Rule for compiling CXX files.
 
+rule CXX_COMPILER__77.2ecpp_unscanned_Debug
+  depfile = $DEP_FILE
+  deps = gcc
+  command = "E:\Clion\CLion 2023.1.1\bin\mingw\bin\g++.exe" $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
+  description = Building CXX object $out
+
+
+#############################################
+# Rule for linking CXX executable.
+
+rule CXX_EXECUTABLE_LINKER__77.2ecpp_Debug
+  command = cmd.exe /C "$PRE_LINK && "E:\Clion\CLion 2023.1.1\bin\mingw\bin\g++.exe" $FLAGS $LINK_FLAGS $in -o $TARGET_FILE -Wl,--out-implib,$TARGET_IMPLIB -Wl,--major-image-version,0,--minor-image-version,0 $LINK_PATH $LINK_LIBRARIES && $POST_BUILD"
+  description = Linking CXX executable $TARGET_FILE
+  restat = $RESTAT
+
+
+#############################################
+# Rule for compiling CXX files.
+
 rule CXX_COMPILER__78.2ecpp_unscanned_Debug
   depfile = $DEP_FILE
   deps = gcc
@@ -2332,6 +2522,25 @@ rule CXX_EXECUTABLE_LINKER__876.2ecpp_Debug
 #############################################
 # Rule for compiling CXX files.
 
+rule CXX_COMPILER__90.2ecpp_unscanned_Debug
+  depfile = $DEP_FILE
+  deps = gcc
+  command = "E:\Clion\CLion 2023.1.1\bin\mingw\bin\g++.exe" $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
+  description = Building CXX object $out
+
+
+#############################################
+# Rule for linking CXX executable.
+
+rule CXX_EXECUTABLE_LINKER__90.2ecpp_Debug
+  command = cmd.exe /C "$PRE_LINK && "E:\Clion\CLion 2023.1.1\bin\mingw\bin\g++.exe" $FLAGS $LINK_FLAGS $in -o $TARGET_FILE -Wl,--out-implib,$TARGET_IMPLIB -Wl,--major-image-version,0,--minor-image-version,0 $LINK_PATH $LINK_LIBRARIES && $POST_BUILD"
+  description = Linking CXX executable $TARGET_FILE
+  restat = $RESTAT
+
+
+#############################################
+# Rule for compiling CXX files.
+
 rule CXX_COMPILER__91.2ecpp_unscanned_Debug
   depfile = $DEP_FILE
   deps = gcc
@@ -2362,6 +2571,25 @@ rule CXX_COMPILER__92.2ecpp_unscanned_Debug
 # Rule for linking CXX executable.
 
 rule CXX_EXECUTABLE_LINKER__92.2ecpp_Debug
+  command = cmd.exe /C "$PRE_LINK && "E:\Clion\CLion 2023.1.1\bin\mingw\bin\g++.exe" $FLAGS $LINK_FLAGS $in -o $TARGET_FILE -Wl,--out-implib,$TARGET_IMPLIB -Wl,--major-image-version,0,--minor-image-version,0 $LINK_PATH $LINK_LIBRARIES && $POST_BUILD"
+  description = Linking CXX executable $TARGET_FILE
+  restat = $RESTAT
+
+
+#############################################
+# Rule for compiling CXX files.
+
+rule CXX_COMPILER__93.2ecpp_unscanned_Debug
+  depfile = $DEP_FILE
+  deps = gcc
+  command = "E:\Clion\CLion 2023.1.1\bin\mingw\bin\g++.exe" $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
+  description = Building CXX object $out
+
+
+#############################################
+# Rule for linking CXX executable.
+
+rule CXX_EXECUTABLE_LINKER__93.2ecpp_Debug
   command = cmd.exe /C "$PRE_LINK && "E:\Clion\CLion 2023.1.1\bin\mingw\bin\g++.exe" $FLAGS $LINK_FLAGS $in -o $TARGET_FILE -Wl,--out-implib,$TARGET_IMPLIB -Wl,--major-image-version,0,--minor-image-version,0 $LINK_PATH $LINK_LIBRARIES && $POST_BUILD"
   description = Linking CXX executable $TARGET_FILE
   restat = $RESTAT
@@ -2476,6 +2704,101 @@ rule CXX_COMPILER__main.2ecpp_unscanned_Debug
 # Rule for linking CXX executable.
 
 rule CXX_EXECUTABLE_LINKER__main.2ecpp_Debug
+  command = cmd.exe /C "$PRE_LINK && "E:\Clion\CLion 2023.1.1\bin\mingw\bin\g++.exe" $FLAGS $LINK_FLAGS $in -o $TARGET_FILE -Wl,--out-implib,$TARGET_IMPLIB -Wl,--major-image-version,0,--minor-image-version,0 $LINK_PATH $LINK_LIBRARIES && $POST_BUILD"
+  description = Linking CXX executable $TARGET_FILE
+  restat = $RESTAT
+
+
+#############################################
+# Rule for compiling CXX files.
+
+rule CXX_COMPILER__p1029.2ecpp_unscanned_Debug
+  depfile = $DEP_FILE
+  deps = gcc
+  command = "E:\Clion\CLion 2023.1.1\bin\mingw\bin\g++.exe" $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
+  description = Building CXX object $out
+
+
+#############################################
+# Rule for linking CXX executable.
+
+rule CXX_EXECUTABLE_LINKER__p1029.2ecpp_Debug
+  command = cmd.exe /C "$PRE_LINK && "E:\Clion\CLion 2023.1.1\bin\mingw\bin\g++.exe" $FLAGS $LINK_FLAGS $in -o $TARGET_FILE -Wl,--out-implib,$TARGET_IMPLIB -Wl,--major-image-version,0,--minor-image-version,0 $LINK_PATH $LINK_LIBRARIES && $POST_BUILD"
+  description = Linking CXX executable $TARGET_FILE
+  restat = $RESTAT
+
+
+#############################################
+# Rule for compiling CXX files.
+
+rule CXX_COMPILER__p1352.2ecpp_unscanned_Debug
+  depfile = $DEP_FILE
+  deps = gcc
+  command = "E:\Clion\CLion 2023.1.1\bin\mingw\bin\g++.exe" $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
+  description = Building CXX object $out
+
+
+#############################################
+# Rule for linking CXX executable.
+
+rule CXX_EXECUTABLE_LINKER__p1352.2ecpp_Debug
+  command = cmd.exe /C "$PRE_LINK && "E:\Clion\CLion 2023.1.1\bin\mingw\bin\g++.exe" $FLAGS $LINK_FLAGS $in -o $TARGET_FILE -Wl,--out-implib,$TARGET_IMPLIB -Wl,--major-image-version,0,--minor-image-version,0 $LINK_PATH $LINK_LIBRARIES && $POST_BUILD"
+  description = Linking CXX executable $TARGET_FILE
+  restat = $RESTAT
+
+
+#############################################
+# Rule for compiling CXX files.
+
+rule CXX_COMPILER__p1428.2ecpp_unscanned_Debug
+  depfile = $DEP_FILE
+  deps = gcc
+  command = "E:\Clion\CLion 2023.1.1\bin\mingw\bin\g++.exe" $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
+  description = Building CXX object $out
+
+
+#############################################
+# Rule for linking CXX executable.
+
+rule CXX_EXECUTABLE_LINKER__p1428.2ecpp_Debug
+  command = cmd.exe /C "$PRE_LINK && "E:\Clion\CLion 2023.1.1\bin\mingw\bin\g++.exe" $FLAGS $LINK_FLAGS $in -o $TARGET_FILE -Wl,--out-implib,$TARGET_IMPLIB -Wl,--major-image-version,0,--minor-image-version,0 $LINK_PATH $LINK_LIBRARIES && $POST_BUILD"
+  description = Linking CXX executable $TARGET_FILE
+  restat = $RESTAT
+
+
+#############################################
+# Rule for compiling CXX files.
+
+rule CXX_COMPILER__p1515.2ecpp_unscanned_Debug
+  depfile = $DEP_FILE
+  deps = gcc
+  command = "E:\Clion\CLion 2023.1.1\bin\mingw\bin\g++.exe" $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
+  description = Building CXX object $out
+
+
+#############################################
+# Rule for linking CXX executable.
+
+rule CXX_EXECUTABLE_LINKER__p1515.2ecpp_Debug
+  command = cmd.exe /C "$PRE_LINK && "E:\Clion\CLion 2023.1.1\bin\mingw\bin\g++.exe" $FLAGS $LINK_FLAGS $in -o $TARGET_FILE -Wl,--out-implib,$TARGET_IMPLIB -Wl,--major-image-version,0,--minor-image-version,0 $LINK_PATH $LINK_LIBRARIES && $POST_BUILD"
+  description = Linking CXX executable $TARGET_FILE
+  restat = $RESTAT
+
+
+#############################################
+# Rule for compiling CXX files.
+
+rule CXX_COMPILER__p2356.2ecpp_unscanned_Debug
+  depfile = $DEP_FILE
+  deps = gcc
+  command = "E:\Clion\CLion 2023.1.1\bin\mingw\bin\g++.exe" $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
+  description = Building CXX object $out
+
+
+#############################################
+# Rule for linking CXX executable.
+
+rule CXX_EXECUTABLE_LINKER__p2356.2ecpp_Debug
   command = cmd.exe /C "$PRE_LINK && "E:\Clion\CLion 2023.1.1\bin\mingw\bin\g++.exe" $FLAGS $LINK_FLAGS $in -o $TARGET_FILE -Wl,--out-implib,$TARGET_IMPLIB -Wl,--major-image-version,0,--minor-image-version,0 $LINK_PATH $LINK_LIBRARIES && $POST_BUILD"
   description = Linking CXX executable $TARGET_FILE
   restat = $RESTAT
