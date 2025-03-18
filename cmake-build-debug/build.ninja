@@ -4958,6 +4958,39 @@ build p1048.cpp.exe: CXX_EXECUTABLE_LINKER__p1048.2ecpp_Debug CMakeFiles/p1048.c
   TARGET_PDB = p1048.cpp.exe.dbg
 
 # =============================================================================
+# Object build statements for EXECUTABLE target p1123.cpp
+
+
+#############################################
+# Order-only phony target for p1123.cpp
+
+build cmake_object_order_depends_target_p1123.cpp: phony || CMakeFiles/p1123.cpp.dir
+
+build CMakeFiles/p1123.cpp.dir/p1123.cpp.obj: CXX_COMPILER__p1123.2ecpp_unscanned_Debug F$:/LC_stack/p1123.cpp || cmake_object_order_depends_target_p1123.cpp
+  DEP_FILE = CMakeFiles\p1123.cpp.dir\p1123.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\p1123.cpp.dir
+  OBJECT_FILE_DIR = CMakeFiles\p1123.cpp.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target p1123.cpp
+
+
+#############################################
+# Link the executable p1123.cpp.exe
+
+build p1123.cpp.exe: CXX_EXECUTABLE_LINKER__p1123.2ecpp_Debug CMakeFiles/p1123.cpp.dir/p1123.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\p1123.cpp.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = p1123.cpp.exe
+  TARGET_IMPLIB = libp1123.cpp.dll.a
+  TARGET_PDB = p1123.cpp.exe.dbg
+
+# =============================================================================
 # Object build statements for EXECUTABLE target p1195.cpp
 
 
@@ -5585,6 +5618,39 @@ build p2683.cpp.exe: CXX_EXECUTABLE_LINKER__p2683.2ecpp_Debug CMakeFiles/p2683.c
   TARGET_PDB = p2683.cpp.exe.dbg
 
 # =============================================================================
+# Object build statements for EXECUTABLE target p5015.cpp
+
+
+#############################################
+# Order-only phony target for p5015.cpp
+
+build cmake_object_order_depends_target_p5015.cpp: phony || CMakeFiles/p5015.cpp.dir
+
+build CMakeFiles/p5015.cpp.dir/p5015.cpp.obj: CXX_COMPILER__p5015.2ecpp_unscanned_Debug F$:/LC_stack/p5015.cpp || cmake_object_order_depends_target_p5015.cpp
+  DEP_FILE = CMakeFiles\p5015.cpp.dir\p5015.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\p5015.cpp.dir
+  OBJECT_FILE_DIR = CMakeFiles\p5015.cpp.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target p5015.cpp
+
+
+#############################################
+# Link the executable p5015.cpp.exe
+
+build p5015.cpp.exe: CXX_EXECUTABLE_LINKER__p5015.2ecpp_Debug CMakeFiles/p5015.cpp.dir/p5015.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\p5015.cpp.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = p5015.cpp.exe
+  TARGET_IMPLIB = libp5015.cpp.dll.a
+  TARGET_PDB = p5015.cpp.exe.dbg
+
+# =============================================================================
 # Object build statements for EXECUTABLE target p5781.cpp
 
 
@@ -5941,6 +6007,8 @@ build p1046.cpp: phony p1046.cpp.exe
 
 build p1048.cpp: phony p1048.cpp.exe
 
+build p1123.cpp: phony p1123.cpp.exe
+
 build p1195.cpp: phony p1195.cpp.exe
 
 build p1304.cpp: phony p1304.cpp.exe
@@ -5979,6 +6047,8 @@ build p2356.cpp: phony p2356.cpp.exe
 
 build p2683.cpp: phony p2683.cpp.exe
 
+build p5015.cpp: phony p5015.cpp.exe
+
 build p5781.cpp: phony p5781.cpp.exe
 
 # =============================================================================
@@ -5989,7 +6059,7 @@ build p5781.cpp: phony p5781.cpp.exe
 #############################################
 # Folder: F:/LC_stack/cmake-build-debug
 
-build all: phony 02.cpp.exe 1.cpp.exe 1005.cpp.exe 1019.cpp.exe 101tree.cpp.exe 102tree.cpp.exe 1035.cpp.exe 1049.cpp.exe 104tree.cpp.exe 105tree.cpp.exe 107.cpp.exe 108tree.cpp.exe 11.cpp.exe 111.cpp.exe 1143.cpp.exe 114tree.cpp.exe 115.cpp.exe 116.cpp.exe 117.cpp.exe 118.cpp.exe 121.cpp.exe 122and123.cpp.exe 128.cpp.exe 131.cpp.exe 134.cpp.exe 135.cpp.exe 138.cpp.exe 1382tree.cpp.exe 139.cpp.exe 141.cpp.exe 142.cpp.exe 143.cpp.exe 144.cpp.exe 145.cpp.exe 147.cpp.exe 148.cpp.exe 15.cpp.exe 150.cpp.exe 152.cpp.exe 153.cpp.exe 155.cpp.exe 160.cpp.exe 17.cpp.exe 1721.cpp.exe 188.cpp.exe 19.cpp.exe 198.cpp.exe 199tree.cpp.exe 20.cpp.exe 203.cpp.exe 206.cpp.exe 213.cpp.exe 216.cpp.exe 22.cpp.exe 226tree.cpp.exe 227.cpp.exe 230tree.cpp.exe 232.cpp.exe 234.cpp.exe 236tree.cpp.exe 24.cpp.exe 279.cpp.exe 283.cpp.exe 3.cpp.exe 300.cpp.exe 309.cpp.exe 316.cpp.exe 32.cpp.exe 322.cpp.exe 328.cpp.exe 33.cpp.exe 337.cpp.exe 34.cpp.exe 343.cpp.exe 35.cpp.exe 376.cpp.exe 386.cpp.exe 39.cpp.exe 392.cpp.exe 394.cpp.exe 40.cpp.exe 406.cpp.exe 406true.cpp.exe 416.cpp.exe 429.cpp.exe 437tree.cpp.exe 45.cpp.exe 455.cpp.exe 456.cpp.exe 46.cpp.exe 47.cpp.exe 474.cpp.exe 491.cpp.exe 494.cpp.exe 496.cpp.exe 5.cpp.exe 503.cpp.exe 51.cpp.exe 515.cpp.exe 518.cpp.exe 53.cpp.exe 543tree.cpp.exe 55.cpp.exe 560.cpp.exe 561.cpp.exe 572.cpp.exe 581.cpp.exe 583.cpp.exe 61.cpp.exe 62.cpp.exe 637.cpp.exe 64.cpp.exe 647.cpp.exe 674.cpp.exe 678.cpp.exe 70.cpp.exe 714.cpp.exe 718.cpp.exe 72.cpp.exe 725.cpp.exe 735.cpp.exe 739.cpp.exe 74.cpp.exe 746.cpp.exe 763.cpp.exe 769.cpp.exe 77.cpp.exe 78.cpp.exe 79.cpp.exe 817.cpp.exe 82.cpp.exe 844.cpp.exe 86.cpp.exe 860.cpp.exe 876.cpp.exe 90.cpp.exe 91.cpp.exe 92.cpp.exe 93.cpp.exe 94tree.cpp.exe 95.cpp.exe 96.cpp.exe 98tree.cpp.exe 99tree.cpp.exe main.cpp.exe p1029.cpp.exe p1036.cpp.exe p1046.cpp.exe p1048.cpp.exe p1195.cpp.exe p1304.cpp.exe p1352.cpp.exe p1396.cpp.exe p1421.cpp.exe p1424.cpp.exe p1428.cpp.exe p1441.cpp.exe p1443.cpp.exe p1449.cpp.exe p1515.cpp.exe p1576.cpp.exe p1652.cpp.exe p1781.cpp.exe p1907.cpp.exe p2036.cpp.exe p2048.cpp.exe p2356.cpp.exe p2683.cpp.exe p5781.cpp.exe
+build all: phony 02.cpp.exe 1.cpp.exe 1005.cpp.exe 1019.cpp.exe 101tree.cpp.exe 102tree.cpp.exe 1035.cpp.exe 1049.cpp.exe 104tree.cpp.exe 105tree.cpp.exe 107.cpp.exe 108tree.cpp.exe 11.cpp.exe 111.cpp.exe 1143.cpp.exe 114tree.cpp.exe 115.cpp.exe 116.cpp.exe 117.cpp.exe 118.cpp.exe 121.cpp.exe 122and123.cpp.exe 128.cpp.exe 131.cpp.exe 134.cpp.exe 135.cpp.exe 138.cpp.exe 1382tree.cpp.exe 139.cpp.exe 141.cpp.exe 142.cpp.exe 143.cpp.exe 144.cpp.exe 145.cpp.exe 147.cpp.exe 148.cpp.exe 15.cpp.exe 150.cpp.exe 152.cpp.exe 153.cpp.exe 155.cpp.exe 160.cpp.exe 17.cpp.exe 1721.cpp.exe 188.cpp.exe 19.cpp.exe 198.cpp.exe 199tree.cpp.exe 20.cpp.exe 203.cpp.exe 206.cpp.exe 213.cpp.exe 216.cpp.exe 22.cpp.exe 226tree.cpp.exe 227.cpp.exe 230tree.cpp.exe 232.cpp.exe 234.cpp.exe 236tree.cpp.exe 24.cpp.exe 279.cpp.exe 283.cpp.exe 3.cpp.exe 300.cpp.exe 309.cpp.exe 316.cpp.exe 32.cpp.exe 322.cpp.exe 328.cpp.exe 33.cpp.exe 337.cpp.exe 34.cpp.exe 343.cpp.exe 35.cpp.exe 376.cpp.exe 386.cpp.exe 39.cpp.exe 392.cpp.exe 394.cpp.exe 40.cpp.exe 406.cpp.exe 406true.cpp.exe 416.cpp.exe 429.cpp.exe 437tree.cpp.exe 45.cpp.exe 455.cpp.exe 456.cpp.exe 46.cpp.exe 47.cpp.exe 474.cpp.exe 491.cpp.exe 494.cpp.exe 496.cpp.exe 5.cpp.exe 503.cpp.exe 51.cpp.exe 515.cpp.exe 518.cpp.exe 53.cpp.exe 543tree.cpp.exe 55.cpp.exe 560.cpp.exe 561.cpp.exe 572.cpp.exe 581.cpp.exe 583.cpp.exe 61.cpp.exe 62.cpp.exe 637.cpp.exe 64.cpp.exe 647.cpp.exe 674.cpp.exe 678.cpp.exe 70.cpp.exe 714.cpp.exe 718.cpp.exe 72.cpp.exe 725.cpp.exe 735.cpp.exe 739.cpp.exe 74.cpp.exe 746.cpp.exe 763.cpp.exe 769.cpp.exe 77.cpp.exe 78.cpp.exe 79.cpp.exe 817.cpp.exe 82.cpp.exe 844.cpp.exe 86.cpp.exe 860.cpp.exe 876.cpp.exe 90.cpp.exe 91.cpp.exe 92.cpp.exe 93.cpp.exe 94tree.cpp.exe 95.cpp.exe 96.cpp.exe 98tree.cpp.exe 99tree.cpp.exe main.cpp.exe p1029.cpp.exe p1036.cpp.exe p1046.cpp.exe p1048.cpp.exe p1123.cpp.exe p1195.cpp.exe p1304.cpp.exe p1352.cpp.exe p1396.cpp.exe p1421.cpp.exe p1424.cpp.exe p1428.cpp.exe p1441.cpp.exe p1443.cpp.exe p1449.cpp.exe p1515.cpp.exe p1576.cpp.exe p1652.cpp.exe p1781.cpp.exe p1907.cpp.exe p2036.cpp.exe p2048.cpp.exe p2356.cpp.exe p2683.cpp.exe p5015.cpp.exe p5781.cpp.exe
 
 # =============================================================================
 # Built-in targets
